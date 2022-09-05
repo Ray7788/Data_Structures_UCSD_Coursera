@@ -12,7 +12,7 @@ public class PhoneBook {
     private FastScanner in = new FastScanner();
     // Keep list of all existing (i.e. not deleted yet) contacts.
     // private List<Contact> contacts = new ArrayList<>();
-    private String contacts = new String[10000000];
+    private String[] contacts = new String[10000000];
 
     public static void main(String[] args) {
         new PhoneBook().processQueries();
